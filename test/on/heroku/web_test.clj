@@ -1,6 +1,6 @@
-(ns clojure-getting-started.web-test
+(ns on.heroku.web-test
   (:require [clojure.test :refer :all]
-            [clojure-getting-started.web :refer :all]))
+            [on.heroku.web :refer :all]))
 
 (deftest first-test
   (is false "Tests should be written"))
