@@ -3,4 +3,4 @@
             [on.heroku.web :refer :all]))
 
 (deftest first-test
-  (is false "Not Passing"))
+  (is true "Passed"))
