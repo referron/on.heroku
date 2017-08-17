@@ -1,4 +1,4 @@
-(defproject referron/on.heroku "1.0.0-SNAPSHOT"
+(defproject referron/on.simple "1.0.0-SNAPSHOT"
   :description "Demo Clojure web app"
   :url "https://github.com/referron/on.heroku"
   :license {:name "Eclipse Public License v1.0"
@@ -12,7 +12,7 @@
   :min-lein-version "2.0.0"
   :plugins [[environ/environ.lein "0.3.1"]]
   :hooks [environ.leiningen.hooks]
-  :uberjar-name "on.heroku.jar"
+  :uberjar-name "on.simple.jar"
   :profiles {:production {:env {:production true}}}
   :repositories {"my.datomic.com" {:url "https://my.datomic.com/repo"
                                    :username "accounts@referron.com"

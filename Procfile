@@ -1,2 +1,1 @@
-web: java $JVM_OPTS -cp target/referron.jar clojure.main -m on.heroku.web
-datomic: /app/scripts/start-datomic.sh
+web: java $JVM_OPTS -cp target/on.simple.jar clojure.main -m on.simple.web
